@@ -1,0 +1,51 @@
+.pgpdt_section1 {
+    display: flex;
+    padding: 50px 200px;
+    gap: 3em;
+}
+
+.pgpdt_blocg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 50%;
+}
+
+.pgpdt_blocd {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap : 1em
+}
+
+
+.img_pagepdt {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.pgpdt_pricing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.info_pdt {
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.20);
+
+}
+
+
+#description_pdt {
+    height: 100%;
+}
+
+#btn_panier {
+    align-self: flex-end;
+}
+
